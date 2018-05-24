@@ -2,8 +2,10 @@
 ## Automate WordPress with TestNG and Maven run in Jenkins
 
 ## Change com.data/TestData.ods to Excel format
-## Create your own website account
+## Create your own wordpress website account
+### add/edit/delete post
+### login
 
 ### Reference
 
-* [Selenium webdriver Java]("https://www.udemy.com/test-automation-with-selenium-webdriver")
+* [Selenium webdriver Java](https://www.udemy.com/test-automation-with-selenium-webdriver)
