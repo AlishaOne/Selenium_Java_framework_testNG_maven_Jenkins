@@ -34,7 +34,7 @@ public class TCAddPost001 {
 	@BeforeClass
 	public void setUpAdd() throws Exception {
 		PropertyConfigurator.configure("./log/log4j.Properties");
-		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Sheet3");
+		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Sheet1");
 		// sTestCaseName = this.toString();
 		try {
 			sTestCaseName = this.toString();
