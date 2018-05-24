@@ -8,4 +8,4 @@
 
 ### Reference
 
-* [Selenium webdriver Java](https://www.udemy.com/test-automation-with-selenium-webdriver)
+* [Selenium webdriver Java course](https://www.udemy.com/test-automation-with-selenium-webdriver)
