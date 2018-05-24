@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Login Suite" preserve-order="true" parallel="classes" thread-count="5" -->
+<suite name="Login Suite" parallel="false">
+	<test name="Valid Test Case">
+		<!-- <packages> -->
+		<!-- <package name="com.testcase" /> -->
+		<!-- </packages> -->
+		<classes>
+			<class name="com.testcase.TCAddPost001"></class>
+			<class name="com.testcase.TCEditPost001"></class>
+			<class name="com.testcase.TCDelPost001"></class>
+			<class name="com.testcase.TCLoginValid001"></class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Invalid Test Case">
+		<!-- <packages> -->
+		<!-- <package name="com.testcase"/> -->
+		<!-- </packages> -->
+		<classes>
+			<!-- <class name="com.testcase.TCLoginValid001"/> -->
+			<class name="com.testcaseinvalid.TCLoginInvalid001" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
