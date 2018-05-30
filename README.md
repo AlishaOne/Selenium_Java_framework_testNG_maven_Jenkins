@@ -6,6 +6,4 @@
 ### add/edit/delete post
 ### login
 
-### Reference
 
-* [Selenium webdriver Java course](https://www.udemy.com/test-automation-with-selenium-webdriver)
